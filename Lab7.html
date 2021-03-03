@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to cc</title>
+        <style>
+            body{
+                width:80%;
+            }
+            .mytable{
+                width:100%;
+            }
+            table,td,th{
+                border:1px rgb(182, 55, 55) solid;
+                border-collapse: collapse;
+                font-size: 25px;
+            }
+            
+            tr:nth-child(odd)
+            {
+                background-color: azure;
+            }
+            tr:nth-child(even)
+            {
+                background-color: lavender ;
+        
+            }
+        </style>
+    </head>
+    <body>
+        <table class="mytable">
+            <caption><h3>Student Information</h3></caption>
+            <threa>
+                <!--creating the table columns-->
+                <tr>
+                    <th>Sid</th>
+                    <th>Sname</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Course</th>
+                </tr>
+            </threa>
+            <tbody>
+                <!--inserting the table data-->
+                <tr>
+                    <td>101</td>
+                    <td>sri</td>
+                    <td>sri@jlc</td>
+                    <td>12345</td>
+                    <td>Angular</td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>jaiky</td>
+                    <td>jaiky@jlc</td>
+                    <td>12345</td>
+                    <td>react</td>
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td>jk</td>
+                    <td>jk@jlc</td>
+                    <td>87345</td>
+                    <td>Node</td>
+                </tr>
+                <tr>
+                    <td>104</td>
+                    <td>jks</td>
+                    <td>jks@jlc</td>
+                    <td>45875</td>
+                    <td>Ang</td>
+                </tr>
+            </tbody>
+            <tfoot>
+               <tr><td><h2>ok Guys</h2></td></tr> 
+            </tfoot>
+        </table>
+    </body>
+</html>
